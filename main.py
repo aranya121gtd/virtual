@@ -15,6 +15,7 @@ hands = mpHands.Hands(
     min_detection_confidence=0.7,
     min_tracking_confidence=0.7,
     max_num_hands=1
+    #just adding the comment
 )
 
 def find_finger_tip(processed, finger_index):
